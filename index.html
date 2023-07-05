@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon De Belleza y Spa</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/syles.css" as="style">
+    <link href="css/syles.css" rel="stylesheet">
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container__menu">
+          <div class="logo">
+            <h1 class="titulo footer">"Belleza y Spa"<span>Salon</span></h1>
+          </div>
+          <div class="menu">
+            <i class="fas fa-bars" id="btn_menu"></i>
+            <div id="back_menu"></div>
+            <nav id="nav">
+              <ul>
+                <li><a href="#Inicio" id="selected">Inicio</a></li>
+                <li><a href="#MiServicios">Servicios</a></li>
+                <li><a href="#Testimonios">Testimonios</a></li>
+                <li><a href="#Galeria">Galeria</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    <section class="hero" id="Inicio">
+        <div class="contenido-hero">
+            <!--<h2>"Transformamos tu imagen y elevamos tu confianza."</h2>-->
+            
+        </div> <!--contenido-hero (asi se comenta)-->
+
+        
+    </section>    
+    
+   <main class="contenedor sombra"> 
+        
+        <h2 class="titulos" id="MiServicios">Nuestros Servicios</h2>
+  
+
+        <div class="servicios">
+            
+        <section class="servicio">
+            <h3>Cortes y Tratamiento</h3>
+            <p>Nuestros estilistas expertos te brindarán cortes de cabello personalizados que resaltarán tu estilo y personalidad. 
+              Además, ofrecemos tratamientos capilares que nutren y revitalizan tu cabello, dejándolo suave, brillante y saludable.</p>
+        
+        </section>
+
+        <section class="servicio">
+            <h3>Manicura y Pedicura</h3>
+            <p>Nuestros especialistas en cuidado de uñas te ofrecen manicuras y pedicuras de calidad, donde mimaremos tus manos y pies. 
+               Con productos de alta gama y técnicas profesionales, lograremos que tus uñas luzcan impecables y saludables.</p>
+        </section>
+
+        <section class="servicio">
+            
+            <h3>Maquillaje Facial</h3>
+            <p> Nuestro equipo de maquilladores profesionales realzará tu belleza natural con técnicas de maquillaje de alta calidad. 
+              Ya sea para un evento especial o simplemente para un look radiante, te brindaremos un maquillaje personalizado y duradero.</p>
+        
+            </section>
+            <section class="servicio">
+              <h3>Tratamientos Estéticos</h3>
+              <p>Te ofrecemos una amplia gama de tratamientos estéticos faciales y corporales para cuidar y mejorar tu piel. 
+                Desde limpiezas faciales profundas hasta tratamientos de rejuvenecimiento. Nuestro objetivo es brindarte una piel sana, luminosa y rejuvenecida!</p>
+          
+          </section>
+  
+          <section class="servicio">
+              
+              <h3>Masajes</h3>
+              <p>Nuestros terapeutas altamente capacitados te ofrecerán una variedad de masajes relajantes y terapéuticos para aliviar el estrés, 
+                reducir la tensión muscular y mejorar tu bienestar general. Te sumergirás en una experiencia de renovación.</p>
+          </section>
+  
+          <section class="servicio">
+              
+              
+              <h3>Circuitos Hidricos</h3>
+              <p>Nuestros circuitos hídricos te invitan a sumergirte en un oasis de tranquilidad. Disfruta de piscinas termales, saunas,
+                baños de vapor y duchas de hidromasaje para relajar tus músculos, eliminar toxinas y revitalizar tu cuerpo y mente.</p>
+
+              </section>        
+    </div><!--.servicio-->
+
+    <section><!--Galeria-->
+      
+        <h2 class="titulos" id="Galeria">Galería</h2>
+     
+        <ul class="galeria">
+            <li><a href="#img1"><img src="img/interior-salon-belleza-moderno.webp"></a>Salon de Belleza</li>
+            <li><a href="#img5"><img src="img/circuito hidrico.webp"></a>Servicios Spa</li>
+
+        </ul>
+
+        <!--Img Actividades-->
+        <div class="modal" id="img1">
+           <h3>Salon de Belleza</h3>
+           <div class="imagen">
+            <a href="#img4">&#60;</a>
+            <a href="#img2"><img src="img/Corte.webp"></a>
+            <a href="#img2">></a>
+           </div>
+           <a class="cerrar" href="#Galeria">x</a>
+        </div>
+
+        <div class="modal" id="img2">
+            <h3>Salon de Belleza</h3>
+            <div class="imagen">
+             <a href="#img1">&#60;</a>
+             <a href="#img3"><img src="img/CorteHom.webp"></a>
+             <a href="#img3">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+         </div>
+
+         <div class="modal" id="img3">
+            <h3>Salon de Belleza</h3>
+            <div class="imagen">
+             <a href="#img2">&#60;</a>
+             <a href="#img4"><img src="img/Manicura y pedicura.webp"></a>
+             <a href="#img4">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+         </div>
+
+         <div class="modal" id="img4">
+            <h3>Salon de Belleza</h3>
+            <div class="imagen">
+             <a href="#img3">&#60;</a>
+             <a href="#img1"><img src="img/Maquillaje artistico.webp"></a>
+             <a href="#img1">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+         </div>
+        <!--FIN Img Activdades-->
+        <!--Img de Salas-->
+         <div class="modal" id="img5">
+            <h3>Circuito Hidrico</h3>
+            <div class="imagen">
+             <a href="#img9">&#60;</a>
+             <a href="#img6"><img src="img/circuito hidrico.webp"></a>
+             <a href="#img6">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+         </div>
+
+         <div class="modal" id="img6">
+            <h3>Masajes</h3>
+            <div class="imagen">
+             <a href="#img5">&#60;</a>
+             <a href="#img7"><img src="img/Masaje.webp"></a>
+             <a href="#img7">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+         </div>
+
+         <div class="modal" id="img7">
+            <h3>Tratamiento Facial</h3>
+            <div class="imagen">
+             <a href="#img6">&#60;</a>
+             <a href="#img8"><img src="img/Tratamiento Facial.webp"></a>
+             <a href="#img8">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+          </div>
+
+          <div class="modal" id="img8">
+             <h3>Servicios de Spa</h3>
+            <div class="imagen">
+             <a href="#img7">&#60;</a>
+             <a href="#img9"><img src="img/spa.webp"></a>
+             <a href="#img9">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+          </div>
+        
+          <div class="modal" id="img9">
+            <h3>Servicios de Spa</h3>
+            <div class="imagen">
+             <a href="#img8">&#60;</a>
+             <a href="#img5"><img src="img/circuito hidrico.webp"></a>
+             <a href="#img5">></a>
+            </div> 
+            <a class="cerrar" href="#Galeria">x</a>
+          </div>
+        <!--Fin Img Salas-->
+
+    </section><!--Fin galeria-->
+
+    </section><!--Testimonios-->
+        <h2 class="titulos">Testimonios</h2>
+      <div class="testimonio_contenedor">
+        <!--Caja1-->
+        <div id="Testimonios" class="testimonios_caja">
+            <div class="caja_top">
+                <div class="perfil">
+                    <div class="perfil_imagen">
+                        <img src="img/TestimonioPapa1.webp" alt="">
+                    </div>
+                   <!--Nombre y usuario-->
+                   <div class="name_user">
+                    <strong>Juan Perez</strong>
+                    <span>@PerezJuan</span>
+                   </div>
+                </div>
+        </div>
+        <div class="comentarios_clientes">
+            <p>¡El mejor lugar para recibir un masaje relajante! Me sorprendió la profesionalidad del terapeuta, quien supo aliviar todas mis tensiones musculares. El ambiente era tranquilo y acogedor, 
+              lo que hizo que mi experiencia fuera aún más placentera. Sin duda, volveré para disfrutar de otros servicios.</p>
+        </div>
+      </div>  
+       <!--Caja2-->
+       <div class="testimonios_caja">
+        <div class="caja_top">
+            <div class="perfil">
+                <div class="perfil_imagen">
+                    <img src="img/TestimonioMama1.webp" alt="">
+                </div>
+               <!--Nombre y usuario-->
+               <div class="name_user">
+                <strong>Patricia Tamagnini.</strong>
+                <span>@Tamagninipato</span>
+               </div>
+            </div>
+    </div>
+    <div class="comentarios_clientes">
+        <p>¡Increíble experiencia! Mi corte de cabello y tratamiento capilar quedaron perfectos. El personal fue amable y atento, me sentí consentida desde el momento en que entré. 
+          Definitivamente volveré para más cuidado personalizado. ¡Recomiendo este salón a todas las mujeres que deseen un cambio de imagen espectacular!</p>
+    </div>
+  </div>
+   <!--Caja3-->
+   <div class="testimonios_caja">
+    <div class="caja_top">
+        <div class="perfil">
+            <div class="perfil_imagen">
+                <img src="img/TestimonioPapa2.webp" alt="">
+            </div>
+           <!--Nombre y usuario-->
+           <div class="name_user">
+            <strong>Pedro Guzman</strong>
+            <span>@Guzmanpedro</span>
+           </div>
+        </div>
+</div>
+<div class="comentarios_clientes">
+    <p>Recibí un tratamiento estético facial personalizado y quedé impresionado con los resultados. Mi piel se veía más radiante y juvenil después del tratamiento. 
+      El personal fue muy amable y me explicó cada paso del proceso. ¡Sin duda, recomendaré este salón a todos mis amigos!</p>
+</div>
+</div>
+ <!--Caja4-->
+ <div class="testimonios_caja">
+    <div class="caja_top">
+        <div class="perfil">
+            <div class="perfil_imagen">
+                <img src="img/TestimonioMama2.webp" alt="">
+            </div>
+           <!--Nombre y usuario-->
+           <div class="name_user">
+            <strong>Silvina Jaime</strong>
+            <span>@Jaimesil</span>
+           </div>
+        </div>
+       
+</div>
+<div class="comentarios_clientes">
+    <p>Quedé maravillada con mi manicura y pedicura en este salón. Las técnicas y productos utilizados fueron de primera calidad, y el resultado fue simplemente impecable. 
+      Me sentí mimada y consentida durante todo el tratamiento. ¡Este lugar se ha convertido en mi destino favorito para el cuidado de mis uñas!</p>
+</div>
+</div>
+
+    <section><!--Fin Testimonios-->
+
+        <section id="Contacto"><!--Contactos-->
+
+            <h2 class="titulos">Contacto</h2>
+            <form id="form" class="formulario" action="https://formsubmit.co/e686c7e1b2ae565e011852ee425c3332" method="POST" >
+                <fieldset>
+                
+                <div class="contenedor-campos">
+                    
+                    <div class="campo">
+                        <label for="name">Nombre<span>*</span></label>
+                        <input class="input-text" name="name" required type="text" id="name" placeholder="Tu Nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefono">Teléfono<span>*</span></label>
+                        <input class="input-text" name="telefono" type="tel" id="telefono" required placeholder="Tu Teléfono">
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo<span>*</span></label>
+                        <input class="input-text" name="email" type="text" id="email" required placeholder="Tu Email">
+                    </div>
+
+                    <div class="campo">
+                        <label for="message">Mensaje</label>
+           
+                        <textarea class="input-text" id="message" name="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <legend>*Llenar todos los campos</legend>
+                </div> <!--contenedor-campos-->
+
+                <div class="alinear-derecha flex">
+                    <button class="boton w-sm-100" type="submit">Enviar</button>
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    
+                </div>
+
+                </fieldset>
+            </form>
+        </section><!--Fin Contacto-->
+    </main>
+   
+    <!--Boton WhatsApp-->
+  <a
+  href="https://api.whatsapp.com/send/?phone=5493573495356&amp;text=Hola,%20estoy%20interesado/a%20en%20conocer%20más%20sobre%20sus%20productos/servicios.%20¿Podrían%20brindarme%20más%20información,%20por%20favor?"
+  id="HrefWhatsapp2"
+  class="float"
+  target="_blank"
+  ><img src="img/wsppbtn.svg" width="256" height="auto"
+/></a>
+
+<a
+  href="https://api.whatsapp.com/send/?phone=5493573495356&amp;text=Hola,%20estoy%20interesado/a%20en%20conocer%20más%20sobre%20sus%20productos/servicios.%20¿Podrían%20brindarme%20más%20información,%20por%20favor?"
+  id="HrefWhatsapp3"
+  class="float1"
+  target="_blank"
+  ><img src="img/wsppbtn1.svg" width="64" height="64"
+/></a>
+<!--Fin Boton WhatsApp-->
+
+<!--Pie de Pagina-->
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+
+                    <h1 class="titulo footer">"Belleza y Spa"<span>Salón</span></h1>
+            
+                </figure>
+        </div>
+
+        <div class="box">
+            <p class="link"><a target="_blank" class="link" href="https://www.google.com/maps/dir/-31.5544458,-63.5216022/La+Rioja+437,+Villa+del+Rosario,+C%C3%B3rdoba/@-31.5542332,-63.5402593,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94332a49873d328f:0xa42dbd5795e13730!2m2!1d-63.5392888!2d-31.5500313">Rioja Nº 437 </a> 
+               - Tel.: <a target="_blank" class="link" href="https://api.whatsapp.com/send/?phone=5493573495356&amp;text=Hola,%20estoy%20interesado/a%20en%20conocer%20más%20sobre%20sus%20productos/servicios.%20¿Podrían%20brindarme%20más%20información,%20por%20favor?" id="HrefWhatsapp3"> 3573495356</a>  - C.P.:5963</p>
+            <p class="link">Email: <a target="_blank" class="link" href="https://mail.google.com/mail/u/1/?ogbl#inbox"> bellezayspa@gmail.com</a> </p>
+            <p class="link">Villa del Rosario - Córdoba</p>
+            
+        </div>
+
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a target="_blank" href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+                <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2023 <b>Pamela</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer><!--Fin Pie de pagina-->
+ 
+
+
+<!--<script src="carrusel.js"></script>-->
+
+<!--Enviar datod de formulario-->
+<script>
+ const $form = document.querySelector("#form");
+const $buttonMailto = document.querySelector("#form");
+
+$form.addEventListener("submit", handleSubmit);
+
+async function handleSubmit(event) {
+  event.preventDefault();
+  const form = new FormData(this);
+  const response = await fetch(this.action, {
+    method: this.method,
+    body: form,
+    headers: {
+      Accept: "aplication/json",
+    },
+  });
+  if (response.ok) {
+    this.reset();
+    alert("Gracias por contactarme, te responderé pronto");
+  }
+}
+    </script>
+
+ <!--Boton WhastApp-->   
+<script
+    src="https://kit.fontawesome.com/b9d5d6ef3f.js"
+    crossorigin="anonymous"
+></script>
+ <!--Boton menu-->  
+<script src="js/script.js"></script>
+</body>
+</html>
